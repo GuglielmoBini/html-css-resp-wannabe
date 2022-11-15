@@ -135,3 +135,44 @@ img {
     width: 768px;
   }
 }
+
+/* SMARTPHONE 576px */
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: 576px;
+  }
+
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .lessons .col,
+  .steps .col {
+    width: 100%;
+    margin-bottom: 70px;
+  }
+
+  .lessons .col img,
+  .steps .col img {
+    height: 280px;
+  }
+
+  .lessons .text,
+  .steps .text {
+    padding: 0 60px;
+  }
+
+  .why-us h2 {
+    padding: 0 85px;
+  }
+
+  .why-us .col-left,
+  .why-us .col-right {
+    width: 90%;
+  }
+
+  .why-us .col-left {
+    margin-bottom: 100px;
+  }
+}
