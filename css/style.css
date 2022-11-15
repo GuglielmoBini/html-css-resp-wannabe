@@ -175,4 +175,16 @@ img {
   .why-us .col-left {
     margin-bottom: 100px;
   }
+
+  /* cambio background-color sezione "why us" */
+
+  .steps,
+  .why-us {
+    margin-bottom: 0;
+  }
+
+  .why-us {
+    padding-top: 3rem;
+    background: #222222;
+  }
 }
